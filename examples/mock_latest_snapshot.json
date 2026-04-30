@@ -1,0 +1,34 @@
+{
+  "symbol": "WDC",
+  "mode": "paper",
+  "account": "U18606919",
+  "position": {
+    "side": "SHORT",
+    "quantity": 60,
+    "avg_cost": 324.0
+  },
+  "market": {
+    "bid": 385.8,
+    "ask": 386.2,
+    "last": 386.0,
+    "timestamp": "2026-04-28T06:00:00+00:00"
+  },
+  "account_summary": {
+    "account": "U18606919",
+    "available_funds": 10000.0,
+    "buying_power": 20000.0,
+    "excess_liquidity": 10000.0
+  },
+  "open_orders": [
+    {
+      "order_id": 101,
+      "side": "BUY",
+      "quantity": 60,
+      "order_type": "STP",
+      "stop_price": 410.0,
+      "status": "Submitted"
+    }
+  ],
+  "status": "PASS",
+  "timestamp": "2026-04-28T06:00:00+00:00"
+}

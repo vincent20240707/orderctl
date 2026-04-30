@@ -1,0 +1,24 @@
+mode: paper
+ibkr:
+  host: "192.168.3.99"
+  port: 4002
+  account: "DUH705022"
+  client_id_base: 100
+  client_id_strategy: "connect_time_fallback"
+  client_id_candidate_count: 20
+  client_id_retry_count: 5
+paper_trading:
+  allow_submit: true
+live_trading:
+  enabled: false
+risk_limits:
+  max_single_order_qty: 20
+  max_single_order_notional: 8000
+  supported_order_types: ["LIMIT", "STOP", "STOP_LIMIT", "MARKET"]
+  forbid_market_order: true
+  forbid_reverse_position: true
+  default_outside_rth: false
+  plan_ttl_seconds: 600
+market_data:
+  allow_missing_for_limit_orders: true
+  try_delayed_if_live_missing: true

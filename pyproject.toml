@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "safe-ib-order-gateway"
+version = "0.2.2"
+description = "A conservative IBKR order gateway CLI for OpenClaw-driven order review workflows."
+requires-python = ">=3.10"
+dependencies = [
+  "ib_async>=1.0.0",
+  "PyYAML>=6.0.1"
+]
+
+[project.scripts]
+orderctl = "safe_ib_order_gateway.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

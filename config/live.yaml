@@ -1,0 +1,24 @@
+mode: live
+ibkr:
+  host: "192.168.3.50"
+  port: 4001
+  account: "U13288503"
+  client_id_base: 200
+  client_id_strategy: "connect_time_fallback"
+  client_id_candidate_count: 20
+  client_id_retry_count: 5
+live_trading:
+  enabled: true
+  require_approval_token: false
+  approval_token: "888888"
+risk_limits:
+  max_single_order_qty: 5
+  max_single_order_notional: 2000
+  supported_order_types: ["LIMIT", "STOP", "STOP_LIMIT", "MARKET"]
+  forbid_market_order: true
+  forbid_reverse_position: true
+  default_outside_rth: false
+  plan_ttl_seconds: 300
+market_data:
+  allow_missing_for_limit_orders: true
+  try_delayed_if_live_missing: true

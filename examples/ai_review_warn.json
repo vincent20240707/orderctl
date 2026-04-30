@@ -1,0 +1,16 @@
+{
+  "verdict": "WARN",
+  "summary": "该订单可理解为回补空头 20 股；如果已有旧止损单，需要确认回补成交后是否调整保护单数量。",
+  "detected_intent": "CLOSE_SHORT",
+  "issues": [
+    {
+      "level": "WARN",
+      "category": "LIFECYCLE_CONFLICT_CHECK_REQUIRED",
+      "message": "如果本回补单成交，旧止损/止盈单可能需要调整或取消，避免残留订单导致反手。"
+    }
+  ],
+  "allow_submit": false,
+  "required_questions": [
+    "该回补单成交后，是否调整或取消旧保护单？"
+  ]
+}

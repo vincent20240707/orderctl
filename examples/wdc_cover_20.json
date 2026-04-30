@@ -1,0 +1,12 @@
+{
+  "symbol": "WDC",
+  "intent_type": "CLOSE_SHORT",
+  "order_role": "SCALE_OUT",
+  "side": "BUY",
+  "quantity": 20,
+  "order_type": "LIMIT",
+  "limit_price": 386.0,
+  "outside_rth": false,
+  "time_in_force": "DAY",
+  "reason": "降低空头风险"
+}

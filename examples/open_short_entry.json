@@ -1,0 +1,12 @@
+{
+  "symbol": "WDC",
+  "intent_type": "OPEN_SHORT",
+  "order_role": "ENTRY",
+  "side": "SELL",
+  "quantity": 10,
+  "order_type": "LIMIT",
+  "limit_price": 420.0,
+  "outside_rth": false,
+  "time_in_force": "DAY",
+  "reason": "paper流程测试：限价做空开仓"
+}

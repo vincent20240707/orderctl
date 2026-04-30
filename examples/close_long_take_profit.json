@@ -1,0 +1,12 @@
+{
+  "symbol": "WDC",
+  "intent_type": "CLOSE_LONG",
+  "order_role": "TAKE_PROFIT",
+  "side": "SELL",
+  "quantity": 20,
+  "order_type": "LIMIT",
+  "limit_price": 415.0,
+  "outside_rth": false,
+  "time_in_force": "DAY",
+  "reason": "多头止盈卖出"
+}

@@ -1,0 +1,12 @@
+{
+  "symbol": "WDC",
+  "intent_type": "CLOSE_SHORT",
+  "order_role": "TAKE_PROFIT",
+  "side": "BUY",
+  "quantity": 10,
+  "order_type": "LIMIT",
+  "limit_price": 390.0,
+  "outside_rth": false,
+  "time_in_force": "DAY",
+  "reason": "空头止盈回补"
+}
